@@ -12,17 +12,17 @@
 	</header>
 	<div class="container">
 		<div class="box formulario">
-			<h2>Entre em contato</h2>
-			<form>
-				<label>Nome:
+			<h2>Qual é o maior e o menor número</h2>
+			<form action="resposta.php" method="post">
+				<label>Número 1:
 					<input type="text" id="nome" name="nome" required>
 				</label>
 
-				<label>E-mail:
+				<label>Número 2:
 					<input type="email" id="email" name="email" required>
 				</label>
 
-				<label>Telefone:
+				<label>Número 3:
 					<input type="tel" id="telefone" name="telefone" required>
 				</label>
 
